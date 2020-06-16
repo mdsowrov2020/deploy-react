@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.footer_bg{
+    background-color:#2072AF !important;
+    /* clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%); */
+
+}
+
+.footer_heading{
+    text-align: left;
+}
+.footer_heading h2{
+    font-size: 38px;
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+.footer_heading h2 span{
+    font-size: 24px;
+    color: whitesmoke;
+}
+
+.contact, 
+.pages,
+ ul li{
+    list-style-type: none;
+    font-size: 14px;
+    color: #fff;
+    padding: 5px 0px;
+    letter-spacing: 1px;
+}
+
+.contact .phone{
+    font-size: 20px;
+    color: #35DE6D;
+    margin-right: 5px;
+}
+
+.contact .email{
+    font-size: 20px;
+    color: #EE397B !important;
+    margin-right: 5px;
+}
+
+.footer_bottom p{
+    color: #fff;
+    font-size: 14px;
+}

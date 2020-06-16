@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.skill_head{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.skill_head h2{
+    position: relative;
+    font-size: 25px;
+    font-weight: 400;
+    color: #363727;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.skill_head h2::after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 80%;
+    left: 8%;
+    bottom: -8px;
+    background-color:   #c1c1c1   ;
+}
+.skills{
+    width: 100%;
+    /* max-width: 660px; */
+    /* padding: 40 20px; */
+    
+}
+
+.skill_name{
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 10px 0;
+    letter-spacing: 1px;
+}
+
+.skill_bar{
+    height: 20px;
+    background: #cacaca;
+    border-radius: 30px;
+}
+
+.skill_per{
+    position: relative;
+    height: 20px;
+    background-color: #85B1E5;
+    border-radius: 30px;
+    width: 0;
+    transition: 1s linear;
+}
+
+.skill_per::before{
+    position: absolute;
+    content: attr(per);
+    padding: 4px 6px;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+}
+
+.skill_per::after{
+    position: absolute;
+    content: '';
+
+    background-color: #000;
+    height: 10px;
+    width: 10px;
+    top: -13px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+.soft_skill{
+    /* height: 400px !important; */
+    width: 100% !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    padding: 40px 0px;
+}
+
+.inner_soft_skill{
+text-align: justify;
+padding: 20px 20px;
+background-color: rgba(0,0,0,0.7);
+width: 100%;
+font-size: 18px;
+letter-spacing: 1px;
+}
+
+.inner_soft_skill h2{
+    position: relative;
+    text-align: center !important;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.inner_soft_skill h2::after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 80%;
+    left: 8%;
+    bottom: -8px;
+    background-color:   #c1c1c1   ;
+}
+
+.inner_soft_skill ul li{
+    margin: 10px 0px;
+}
+
+.inner_soft_skill ul li span{
+    font-size: 18px !important;
+    margin-right: 5px;
+}

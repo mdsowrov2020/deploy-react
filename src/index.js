@@ -1,7 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {Route, Link, BrowserRouter as Router, NavLink} from 'react-router-dom';
 import './index.css';
 import App from './App';
+import Home from './components/home/Home'
+import About from './components/about/About'
+import Education from './components/education/Education'
+import Skill from './components/skill/Skill'
+import Footer from './components/contact/Contact'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(

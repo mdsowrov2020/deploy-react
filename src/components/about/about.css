@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.header{
+    text-align: center;
+    /* margin-top: 100px; */
+
+}
+.header h2{
+    position: relative;
+    font-size: 25px;
+    font-weight: 400;
+    color: #363727;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.header h2::after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 80%;
+    left: 8%;
+    bottom: -8px;
+    background-color:   #c1c1c1   ;
+}
+
+.about_image{
+
+    height: 410px !important;
+    width: 100% !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    border-radius: 2px;
+    overflow: hidden;
+    border-radius: 2px;
+    -webkit-box-shadow: -1px 0px 33px -4px rgba(0,0,0,0.28);
+    -moz-box-shadow: -1px 0px 33px -4px rgba(0,0,0,0.28);
+    box-shadow: -1px 0px 33px -4px rgba(0,0,0,0.28);
+
+
+}
+.about_left_content ul li{
+    list-style-type: none !important;
+    display: inline-block;
+    padding-right: 7px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.about_left_content ul li .tw,.fb,.in,.ln{
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    color: #fff !important;
+    background-color: #4180bf;
+    border-radius: 50%;
+    
+}
+.about_left{
+    background-color:   #D7D6DA;
+    padding: 35px 0px;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(50, 50, 50, 0.71);
+    -moz-box-shadow:    0px 0px 6px 0px rgba(50, 50, 50, 0.71);
+    box-shadow:         0px 0px 6px 0px rgba(50, 50, 50, 0.71);
+    border-radius: 2px;
+
+}
+.about_left_content ul li .fb{
+    background-color:   #026dd8  !important;
+}
+.about_left_content ul li .in{
+    background-color:   #fa0c4d   !important;
+}
+.about_left_content h5{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    /* color:   #286274 ;  */
+    color:   #363727; 
+
+
+}
+
+
+
+.about_left .about_left_content p{
+    font-size: 14px;
+    color: #363727;
+}
+
