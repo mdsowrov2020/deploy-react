@@ -15,7 +15,7 @@ class education extends Component {
                    </div>
               
               <div className="row justify-content-center">
-                  <div className="col-md-6  main_content">
+                  <div className="col-md-6  main_content col-12">
                       <div className="education_content">
                           <div className="education_inner_content">
                           <i class="fas fa-school school"></i>
@@ -30,7 +30,7 @@ class education extends Component {
                           </div>
                       </div>
                   </div>
-                  <div className="col-md-6">
+                  <div className="col-md-6 col-12">
                   
                       <div className="education_content">
                           <div className="education_inner_content">

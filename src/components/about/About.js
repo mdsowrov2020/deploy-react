@@ -36,12 +36,10 @@ class about extends Component {
                              Currently I am learning full stack web development and amazon web service(AWS).
                          </p>
                          <h5>Follow me :</h5>
-                         <ul>
-                             <li><a href="#"><i class="fab fa-twitter tw" title="Twitter"></i></a></li>
-                             <li><a href="#"><i class="fab fa-facebook fb" title="Facebook"></i></a></li>
-                             <li><a href="#"><i class="fab fa-instagram in" title="Instagram"></i></a></li>
-                             <li><a href="#"><i class="fab fa-linkedin-in ln" title="Linkedin"></i></a></li>
-                         </ul>
+                         <a href="#" target="_blank"><i className="fab fa-twitter tw" title="Twitter"></i></a>
+                    <a href="#" target="_blank"><i className="fab fa-facebook fb" title="Facebook"></i></a>
+                    <a href="#" target="_blank"><i className="fab fa-instagram in" title="Instagram"></i></a>
+                    <a href="#" target="_blank"><i className="fab fa-linkedin-in ln" title="Linkedin"></i></a>
 
                      </div>
 

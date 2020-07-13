@@ -1,8 +1,17 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Link} from 'react-router-dom'
 import './custom_nav.css'
+import  $ from 'jquery';
 
 const Menu = () =>{
+  useEffect(()=>{
+    $('.hide_nav').on('click', function(){
+      window.$('.navbar-collapse').collapse('hide');
+      console.log('test');
+  });
+  })
+
+
     return(
         <nav className="navbar navbar-expand-lg custom_nav">
         <div className="container">
@@ -14,22 +23,22 @@ const Menu = () =>{
   <div className="collapse navbar-collapse" id="mynav">
     <ul className="navbar-nav ml-auto">
       <li className="nav-item">
-        <Link className="nav-link" to="/">Home </Link>
+        <Link className="nav-link hide_nav"  to="/">Home </Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link" to="/about">About</Link>
+        <Link className="nav-link hide_nav" to="/about">About</Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link" to="/education">Education</Link>
+        <Link className="nav-link hide_nav" to="/education">Education</Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link" to="/skill">Skill</Link>
+        <Link className="nav-link hide_nav" to="/skill">Skill</Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link" to="/projects">Project</Link>
+        <Link className="nav-link hide_nav" to="/projects">Project</Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link" to="/contact">Contact</Link>
+        <Link className="nav-link hide_nav" to="/contact">Contact</Link>
       </li>
       
      
